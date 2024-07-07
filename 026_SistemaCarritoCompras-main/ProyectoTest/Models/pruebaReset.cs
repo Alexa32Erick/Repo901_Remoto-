@@ -1,0 +1,1 @@
+Esto es una pruba con el comando git reset HEAD ñ
