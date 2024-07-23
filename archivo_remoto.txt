@@ -1,0 +1,2 @@
+Actualizado   Linea de comando
+aplicamos de git puññ para actulizar repo local 
