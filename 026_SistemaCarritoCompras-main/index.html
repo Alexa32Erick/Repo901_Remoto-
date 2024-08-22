@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a tu Carrito - Café Punta del Cielo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+    /* Reset básico para márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Ajuste para el header y el footer */
+    padding: 20px;
+}
+
+.cart-welcome {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.cart-welcome h2 {
+    margin-bottom: 20px;
+    color: #3b3b3b;
+}
+
+.cart-welcome p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #3b3b3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5a5a5a;
+}
+
+footer {
+    background-color: #3b3b3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+  </style>
+    <header>
+        <h1>Bienvenido a Café Punta del Cielo</h1>
+        <p>¡Tu carrito está listo para disfrutar de un delicioso café!</p>
+    </header>
+    <main>
+        <section class="cart-welcome">
+            <h2>Tu Carrito de Compras</h2>
+            <p>¡Has añadido productos a tu carrito! A continuación, revisa tu selección y procede a pagar.</p>
+            <button class="btn">Ir a mi carrito</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Café Punta del Cielo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
